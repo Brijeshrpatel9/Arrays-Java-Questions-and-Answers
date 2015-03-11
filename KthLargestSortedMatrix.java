@@ -61,3 +61,32 @@ public class KthLargestSortedMatrix {
 		reArrange(matrix,newRow,newCol);
 	}
 }
+/*
+Problem
+
+Given a 2d array or matrix which is sorted by its rows and columns. Find the kth largest element from this matrix.
+
+Solution
+
+We will first try to find out the solution of the problem of rearranging the matrix. 
+If one element is removed from the matrix, how can we rearrange the matrix so that the original properties of the matrix 
+remain same, that is, sorted by its rows and columns. 
+As the matrix is sorted by rows and columns, take any element, 
+its top and left element will be less than the element and right and bottom element will be greater than the element. 
+lets assume the element is a. If a is removed from the matrix, 
+we will check left and top. Let us assume left is greater than top. If we put left in place of a, 
+left<a and a<right => left<right, which maintains the row wise sorting.
+as a > left, bottom > a => bottom > left
+and we already assumed that left>top
+So these two equation proves that column wise sorting is also maintained. 
+Similar equations will arise if top  is greater than left and we replace the vacant place with top. 
+So we can replace the removed element with the greater of top and left. 
+and then continue the process to the next removed place till there is nothing more to remove. 
+So this rearrange occurs in an N*M matrix in O(N+M) complexity.
+
+Now to solve the original problem we just remove the right, bottom element k times and rearrange after every removal. 
+As the right, bottom element is highest in the matrix, after removing k-1 times we can find the kth largest element 
+in that position.
+The total complexity will become O(K(M+N))
+In an N*N matrix it is O(K(2N)) = O(KN)
+*/
