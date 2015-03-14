@@ -3,8 +3,7 @@ public class LargestSumSubArray {
 
 	public static void main(String argv[])
 	{
-		int[] A = { 4, 3, -5, 0, 6, -8, 12, 3, -9, 2, 5, 8, -3, 4, 8, 0, 3, -3, -5, -9,
-			    4, 2 };
+		int[] A = { 4, 3, -5, 0, 6, -8, 12, 3, -9, 2, 5, 8, -3, 4, 8, 0, 3, -3, -5, -9, 4, 2 };
 		maxSumSubarray(A);
 		
 	}
