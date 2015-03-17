@@ -18,3 +18,14 @@ public class LeastDifferenceInArray {
 		System.out.println("Least Diffrence between any two elements of Array: " + mindiff);
 	}
 }
+/*
+Problem
+
+Find the least difference between any two elements of an integer array.
+
+Solution
+
+First we can sort the elements of the array. Then we can iterate over the array and find difference between consecutive elements. 
+The least of them would be the least differences between any two elements of the array. 
+The complexity will be O(nlogn) because of the sorting step.
+*/
