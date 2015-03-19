@@ -18,6 +18,7 @@ public class LeastDifferenceInArray {
 		System.out.println("Least Diffrence between any two elements of Array: " + mindiff);
 	}
 }
+
 /*
 Problem
 
