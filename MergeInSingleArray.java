@@ -56,3 +56,14 @@ public class MergeInSingleArray {
 		}
 	}
 }
+/*
+Problem
+
+A sorted array has M elements and N blank spaces. Another array has N sorted elements. 
+merge this two arrays in the first array of size M+N
+
+Solution
+
+Start filling the array from back side. That is from the blank positions of first array. 
+As the space is equal to the second array size, it will never overwrite the first array's original values.
+*/
