@@ -63,3 +63,13 @@ public class PrintMatrixSpiral
 	 
   }
 }
+/*
+Problem
+Print a matrix in spiral fashion.
+
+Solution
+We will first print the periphery of the matrix by the help of 4 for loops. 
+Then recursively call this function to do the same thing with inner concentric rectangles. 
+We will pass this information by a variable named depth, which will tell how many layers from outside should be ignored.
+
+*/
