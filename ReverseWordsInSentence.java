@@ -21,7 +21,7 @@ public class ReverseWordsInSentence {
 			if( ch[wordEnd] ==' ')
 			{
 				reverse(ch,wordStart, wordEnd);		
-				System.out.println(ch);
+				//System.out.println(ch);
 				wordStart = wordEnd + 1;
 			}
 			wordEnd++;
