@@ -26,7 +26,7 @@ public class ReverseLinkedListRecursive {
 		if(head.next == null)
 			return head;
 		Node newHead = reverseLinkedList(head.next);
-		System.out.println(head.value);
+		//System.out.println(head.value);
 		head.next.next = head;
 		System.out.println(head.value);
 		
