@@ -1,5 +1,3 @@
-//import ReverseLinkedListIterative.Node;
-
 
 public class ReverseLinkedListRecursive {
 
