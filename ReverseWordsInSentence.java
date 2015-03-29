@@ -14,7 +14,7 @@ public class ReverseWordsInSentence {
 	{
 		char[] ch = str.toCharArray();
 		reverse(ch, 0, ch.length -1);
-		System.out.println(ch);
+		//System.out.println(ch);
 		int wordStart = 0;
 		int wordEnd = 0;
 		while(wordEnd < ch.length)
