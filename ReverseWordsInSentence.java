@@ -7,7 +7,7 @@ public class ReverseWordsInSentence {
 		String str = "My Name is Brijesh";
 		System.out.println("Original sentence is: " + str);
 		String result = reverseWords(str);
-		System.out.println(result);
+		System.out.println("Reversed Sentence: " + result);
 				
 	}
 	public static String reverseWords(String str)
