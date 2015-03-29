@@ -30,7 +30,7 @@ public class ReverseLinkedListRecursive {
 		head.next.next = head;
 		//System.out.println(head.value);
 		head.next = null;
-		System.out.println(head.value);
+		//System.out.println(head.value);
 		return newHead;
 			
 	}
