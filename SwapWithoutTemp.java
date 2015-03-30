@@ -15,3 +15,16 @@ public class SwapWithoutTemp {
 		
 	}
 }
+/*
+Problem
+
+Swap two integers without using a temp variable.
+
+Solution
+
+
+We will use some excellent property of XOR to solve this. 
+If we xor two numbers then the result will give you back the original numbers when again xor ed with the other number. 
+So if ANS=A XOR B then ANS XOR A = B and ANS XOR B = A.
+
+*/
