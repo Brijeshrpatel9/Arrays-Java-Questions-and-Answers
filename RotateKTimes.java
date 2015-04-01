@@ -40,5 +40,4 @@ public class RotateKTimes
   System.out.println();
 
  }
-
 }
