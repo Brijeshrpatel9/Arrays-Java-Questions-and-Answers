@@ -14,3 +14,11 @@ public class RotateString {
 		return str.contains(s2) && s1.length() == s2.length();
 	}
 }
+/*
+Problem
+
+Given two string find whether one string can be formed by rotating another string.
+
+Solution
+
+Suppose string b is to be formed by rotating string a. We concatenate string a with string a. then find for substring b in that concatenation.
