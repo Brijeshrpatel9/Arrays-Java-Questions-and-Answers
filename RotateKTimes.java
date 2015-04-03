@@ -48,5 +48,5 @@ Rotate an array k times to its left.
 
 Solution
 
-
 Reverse the whole array, Then reverse the part 0 to n-k and n-k+1 to n.
+*/
