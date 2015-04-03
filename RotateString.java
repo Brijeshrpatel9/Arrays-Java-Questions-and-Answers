@@ -21,4 +21,6 @@ Given two string find whether one string can be formed by rotating another strin
 
 Solution
 
-Suppose string b is to be formed by rotating string a. We concatenate string a with string a. then find for substring b in that concatenation.
+Suppose string b is to be formed by rotating string a. 
+We concatenate string a with string a. then find for substring b in that concatenation.
+*/
