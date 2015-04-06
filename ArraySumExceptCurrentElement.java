@@ -41,5 +41,4 @@ First we will add the numbers from left to right and place it to a new array in 
 new array e(i)=a(0)+a(1)+...+a(i-1). Then we will do the same thing from right to left. 
 In this way the ith element will include all the elements from its left and right but not the element a(i). 
 As we are always doing a sum we don't need a '-' operator.
-
 */
