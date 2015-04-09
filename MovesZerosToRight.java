@@ -32,8 +32,6 @@ public class MovesZerosToRight {
 			}
 		}
 	}
-	
-	
 }
 /*
 Problem
