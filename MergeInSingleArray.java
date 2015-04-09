@@ -1,6 +1,5 @@
 import java.util.Arrays;
 
-
 public class MergeInSingleArray {
 
 	public static void main(String argv[])
