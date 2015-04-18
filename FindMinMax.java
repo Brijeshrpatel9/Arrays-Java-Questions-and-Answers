@@ -20,7 +20,6 @@ public class FindMinMax {
 					min = num2;
 			}
 			else{
-			
 				if(num1 < min)
 					min = num1;
 				if(num2 > max)
