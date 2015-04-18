@@ -2,7 +2,6 @@
 //comparison = 1.5*n
 public class FindMinMax {
 
-	
 	public static void main(String argv[]){
 		
 		int[] A = {2,5,3,6,8,4,5,7,8,3,5,10,3,5,7,1};
@@ -17,7 +16,6 @@ public class FindMinMax {
 			{
 				if(num1 > max)
 					max = num1;
-				
 				if(num2 < min)
 					min = num2;
 			}
