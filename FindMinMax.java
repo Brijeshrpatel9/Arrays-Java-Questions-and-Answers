@@ -12,8 +12,7 @@ public class FindMinMax {
 		{
 			int num1 = A[i*2];
 			int num2 = A[i*2 + 1];
-			if(num1 > num2)
-			{
+			if(num1 > num2) {
 				if(num1 > max)
 					max = num1;
 				if(num2 < min)
