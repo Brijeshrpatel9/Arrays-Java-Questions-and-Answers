@@ -16,13 +16,10 @@ public class FindMinMax {
 			if(num1 > num2)
 			{
 				if(num1 > max)
-				{
 					max = num1;
-				}
-				if(num2 < min){
+				
+				if(num2 < min)
 					min = num2;
-				}
-			
 			}
 			else{
 			
