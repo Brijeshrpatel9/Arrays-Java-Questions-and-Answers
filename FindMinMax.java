@@ -26,7 +26,7 @@ public class FindMinMax {
 			
 			}
 		}
-		/* 
+		// For odd Array length = number of elements are odd  
 		if( i*2 < A.length)
 		{
 			int num = A[i*2];
@@ -35,7 +35,7 @@ public class FindMinMax {
 			if(num < min)
 				min = num;
 		} 
-		*/
+		
 		System.out.println("Maximum: " + max);
 		System.out.println("Minimum: " + min);
 	
