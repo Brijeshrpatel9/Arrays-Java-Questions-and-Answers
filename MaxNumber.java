@@ -44,15 +44,14 @@ public class MaxNumber {
 		String output = new StringBuffer(op).reverse().toString();
 		System.out.println("Maximum Number that can be formed: " + output);
 		
-		/* Using for loop we can reverse the string
+		//Using for loop we can reverse the string
 		
-		System.out.println("Maximum Number that can be formed: ");
+		System.out.println("Maximum Number that can be formed: (Using for loop) ");
 		for(int i = ch.length-1; i>=0; i--)
 		{
 			System.out.print(ch[i]);
 			
 		}
-		
-		*/
+	
 	}
 }
