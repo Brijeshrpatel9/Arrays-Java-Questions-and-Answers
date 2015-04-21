@@ -46,7 +46,7 @@ public class MaxNumber {
 		
 		//Using for loop we can reverse the string
 		
-		System.out.println("Maximum Number that can be formed: (Using for loop) ");
+		System.out.println("Maximum Number that can be formed (Using for loop): ");
 		for(int i = ch.length-1; i>=0; i--)
 		{
 			System.out.print(ch[i]);
