@@ -14,7 +14,6 @@ So we call this recursive function to read from 3rd position and write it from 4
 Then after the recursive function returns, we write the first 3 positions. 
 The recursion ends when we find space character in the reading position.
 */
-
 public class ExpandArray {
 
 	public static void main(String argv[])
