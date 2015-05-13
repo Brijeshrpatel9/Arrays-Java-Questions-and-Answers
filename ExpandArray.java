@@ -7,7 +7,6 @@ The given array will have more than enough trailing spaces such that you can mod
 
 Solution
 
-
 We will solve this by recursion. Our first reading location and writing location is 0. 
 As we find a3 we know that this will take 3 spaces. But if we write it now it will override b. 
 So we know from a3 that next write will begin from 4th position and reading will start from 3rd position. 
