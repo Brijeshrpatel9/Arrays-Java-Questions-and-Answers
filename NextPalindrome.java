@@ -1,4 +1,3 @@
-
 public class NextPalindrome {
 	
 	public static void main(String argv[])
