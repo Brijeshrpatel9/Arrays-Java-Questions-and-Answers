@@ -22,7 +22,6 @@ String output = new StringBuffer(StingObject).reverse().toString();
 */
 public class MaxNumber {
 
-
 	public static void main(String argv[])
 	{
 		Scanner sc = new Scanner(System.in);
