@@ -15,6 +15,7 @@ public class MergeInSingleArray {
 		merge(a,b, M, N);
 		System.out.println(Arrays.toString(a));
 	}
+	
 	public static void merge(int[] a, int[] b, int M, int N)
 	{
 		int index = M + N -1;
