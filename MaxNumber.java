@@ -19,7 +19,6 @@ char array to string --- String.valueOf(charArray);
 
 Reverse String:
 String output = new StringBuffer(StingObject).reverse().toString();
-
 */
 public class MaxNumber {
 
