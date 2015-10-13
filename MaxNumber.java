@@ -50,6 +50,5 @@ public class MaxNumber {
 			System.out.print(ch[i]);
 			
 		}
-	
 	}
 }
