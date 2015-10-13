@@ -1,6 +1,6 @@
 import java.util.*;
 
-// Some of the Important Methods:
+// Some of the Important Methods related to String and Character:
 /*
 String[] split(String regex) 
 Splits this string around matches of the given regular expression.
