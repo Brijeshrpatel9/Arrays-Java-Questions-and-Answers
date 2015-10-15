@@ -24,6 +24,7 @@ public class NextPalindrome {
 			If it is smaller then abcd is incremented by 1. Suppose (abcd+1)=wxyz. Then the answer is wxyzyxw.
 		 */
 	}
+
 	public static int nextpalindrome(int num)
 	{
 		System.out.println("Entered Number is: " + num);
