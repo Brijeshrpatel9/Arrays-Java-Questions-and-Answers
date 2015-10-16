@@ -77,7 +77,6 @@ public class NextPalindrome {
 				int leftIncremented = Integer.parseInt(leftHalf) + 1;
 				return nextpalindrome(Integer.parseInt(leftIncremented + rightHalf), false);
 			}
-
 		}
 	}
 }
