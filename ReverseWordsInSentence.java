@@ -1,6 +1,5 @@
 public class ReverseWordsInSentence {
 
-	
 	public static void main(String argv[])
 	{
 		String str = "My Name is Brijesh";
