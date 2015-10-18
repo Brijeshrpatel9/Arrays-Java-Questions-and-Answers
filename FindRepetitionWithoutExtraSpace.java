@@ -39,6 +39,7 @@ public class FindRepetitionWithoutExtraSpace {
 			}
 			int min = frontNumber[0];
 			int minindex = 0;
+
 			for(int i=1; i< A.length; ++i)
 			{
 				if(frontNumber[i] == min)
