@@ -1,4 +1,3 @@
-
 public class FindRepetitionWithoutExtraSpace {
 	
 	public static void main(String argv[])
