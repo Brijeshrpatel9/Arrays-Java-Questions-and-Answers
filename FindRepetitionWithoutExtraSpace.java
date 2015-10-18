@@ -22,6 +22,7 @@ public class FindRepetitionWithoutExtraSpace {
 		}
 		
 		boolean modified = true;
+		
 		while(modified)
 		{
 			modified = false;
