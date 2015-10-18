@@ -20,6 +20,7 @@ public class FindRepetitionWithoutExtraSpace {
 		{
 			length[i] = A[i].length;
 		}
+		
 		boolean modified = true;
 		while(modified)
 		{
