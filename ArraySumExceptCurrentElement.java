@@ -7,7 +7,7 @@ public class ArraySumExceptCurrentElement {
 		int i = 0;
 		int sum = 0;
 	
-	while(i < array.length)
+		while(i < array.length)
 		{
 			int temp = array[i];
 			result[i++] = sum;
