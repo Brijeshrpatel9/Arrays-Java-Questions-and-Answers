@@ -1,4 +1,3 @@
-
 public class ArraySumExceptCurrentElement {
 
 	public static void main(String agrv[])
