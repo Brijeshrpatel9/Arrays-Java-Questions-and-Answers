@@ -33,6 +33,7 @@ public class ExpandArray {
 		char ch = array[startReading++];
 		System.out.println(ch);
 		int count = 0;
+
 		if(ch == ' ')
 			return;
 		while(Character.isDigit(array[startReading]))
