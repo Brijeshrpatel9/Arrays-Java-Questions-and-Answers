@@ -44,6 +44,7 @@ public class ExpandArray {
 			startReading++;
 		}
 		expand(array, startReading, startWriting + count);
+		
 		for(int i = 0; i < count; ++i)
 		{
 			array[startWriting + i] = ch;
