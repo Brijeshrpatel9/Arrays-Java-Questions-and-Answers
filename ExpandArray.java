@@ -36,6 +36,7 @@ public class ExpandArray {
 
 		if(ch == ' ')
 			return;
+		
 		while(Character.isDigit(array[startReading]))
 		{
 			count = count * 10 + array[startReading] - 48;
