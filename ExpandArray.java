@@ -50,6 +50,6 @@ public class ExpandArray {
 			array[startWriting + i] = ch;
 			System.out.println(array[startWriting + i]);
 		}
-			
+		
 	}
 }
