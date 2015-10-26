@@ -8,6 +8,7 @@ public class FindMinMax {
 		int max = A[0];
 		int min = A[0];
 		int i = 0;
+		
 		for(; i < (A.length)/2; i++)
 		{
 			int num1 = A[i*2];
