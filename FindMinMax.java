@@ -22,8 +22,7 @@ public class FindMinMax {
 				if(num1 < min)
 					min = num1;
 				if(num2 > max)
-					max = num2;
-			
+					max = num2;			
 			}
 		}
 		// For odd Array length = number of elements are odd  
