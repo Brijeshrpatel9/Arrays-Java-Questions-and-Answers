@@ -28,6 +28,7 @@ public class FindMinMax {
 		}
 		
 		// For odd Array length = number of elements are odd  
+		
 		if( i*2 < A.length)
 		{
 			int num = A[i*2];
