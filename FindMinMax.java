@@ -42,6 +42,7 @@ public class FindMinMax {
 	
 		}
 }
+
 /* Problem
 Given an array of integers, find the maximum and minimum of the array.
 
